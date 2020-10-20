@@ -5,6 +5,21 @@
 
 **This is a very simple python bot that reads you article summeries from wikipedia using an API wrapper, i made this out of boredom but feel free to fork it (tbh i'd really appreciate it if you do), i'm gonna reference the resources i used because they're super awesome and very well documented**
 
+## Current features 
+
+- Reads out summeries of wikipedia articles as provided by the user
+
+- It can also read the entire article for you if the `--f` flag is provided
+
+
+## Usage
+
+1. Clone the repo 
+2. Install the dependencies via `pip install Wikipedia-API pyttsx3`
+
+3. To run the script `python wikibot.py t [--f]` where `t` is the title of the article and `--f` is an optional arg in case you want to listen to the entire article 
+
+
 ## Modules i used 
 
 - [WikipediaAPI](https://pypi.org/project/Wikipedia-API/), a very simple yet powerful wrapper for the wikipedia api and it has amazing features and an amazing documentation
