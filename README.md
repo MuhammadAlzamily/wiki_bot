@@ -16,16 +16,13 @@
 
 1. Clone the repo 
 2. Install the dependencies via `pip install Wikipedia-API pyttsx3`
-
+3. To run the script `python wikibot.py t [--f]` where `t` is the title of the article and `--f` is an optional arg in case you want to listen to the entire article 
 
 ## Example 
 
 - summery : `python wikibot.py "elon musk"`
 
 - full article : `python wikibot.py "tesla inc" --f` 
-
-3. To run the script `python wikibot.py t [--f]` where `t` is the title of the article and `--f` is an optional arg in case you want to listen to the entire article 
-
 
 ## Modules i used 
 
