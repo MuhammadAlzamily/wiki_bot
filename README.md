@@ -16,7 +16,7 @@
 
 1. Clone the repo 
 2. Install the dependencies via `pip install Wikipedia-API pyttsx3`
-3. To run the script `python wikibot.py t [--f]` where `t` is the title of the article and `--f` is an optional arg in case you want to listen to the entire article 
+3. To run the script `python wikibot.py t [--f] [--q]` where `t` is the title of the article, `--f` is an optional arg in case you want to listen to the entire article, and `--q` is an args that allows you to turn off the text-to-speech.
 
 ## Example 
 
